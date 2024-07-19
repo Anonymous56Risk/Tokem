@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6735160001:AAG8bXviCh0B0xCIcocEvCi4lB2vbLMUlOg")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "9576963"))
+APP_ID = int(os.environ.get("APP_ID", "24466877"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "5111bfe8bddacdb9eb92f8e7522613ea")
+API_HASH = os.environ.get("API_HASH", "403596c01ecce435211d06eda69e9ad6")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002143673108"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6303569936"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5857939104"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -41,7 +41,7 @@ TUT_VID = os.environ.get("TUT_VID","https://t.me/HOWTOVERIFYNONVEGMASALATOKEN/3"
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002106708572"))
 
-TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
+TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "100"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6303569936)
+ADMINS.append(5857939104)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
